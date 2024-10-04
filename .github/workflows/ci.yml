@@ -13,22 +13,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '18'
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install dependencies
+        run: npm install
 
-    - name: Check Types
-      run: npm run type-check
+      # Run separate type-check for Jest and Cypress
+      - name: Type Check Jest
+        run: npm run type-check:jest
 
-    - name: Run unit tests
-      run: npm run test:ci
+      - name: Type Check Cypress
+        run: npm run type-check:cypress
 
-    - name: Run Cypress tests
-      run: npm run cypress:run
+      - name: Run unit tests (Jest)
+        run: npm run test:ci
+
+      - name: Run Cypress tests
+        run: npm run cypress:run

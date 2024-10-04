@@ -1,3 +1,4 @@
+/// <reference types="jest" />
 import { configureStore } from '@reduxjs/toolkit'
 import { type Comment } from '../../lib/type'
 import commentsReducer, {
