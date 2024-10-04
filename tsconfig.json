@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["cypress"],
     "resolveJsonModule": true,
     "target": "es6",
     "module": "esnext",
@@ -10,5 +11,5 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "include": ["src", "cypress/**/*.ts", "cypress/**/*.js"]
 }
