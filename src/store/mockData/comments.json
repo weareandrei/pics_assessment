@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "storyId": "story1",
+    "contents": "The old castle on the hill had stood abandoned for years, or so everyone thought.",
+    "author": "Emily",
+    "likesCount": 7,
+    "userLiked": false
+  },
+  {
+    "id": "2",
+    "storyId": "story1",
+    "contents": "But one night, a single light flickered on in the top tower.",
+    "author": "",
+    "likesCount": 5,
+    "userLiked": true
+  },
+  {
+    "id": "3",
+    "storyId": "story1",
+    "contents": "John always said he'd never go up there, but curiosity got the better of him.",
+    "author": "John",
+    "likesCount": 3,
+    "userLiked": false
+  },
+  {
+    "id": "4",
+    "storyId": "story1",
+    "contents": "He grabbed his flashlight and headed up the winding path to the castle gate.",
+    "author": "Maksym",
+    "likesCount": 8,
+    "userLiked": true
+  },
+  {
+    "id": "5",
+    "storyId": "story1",
+    "contents": "The gate creaked open, and John stepped inside, heart pounding.",
+    "author": "",
+    "likesCount": 6,
+    "userLiked": false
+  },
+  {
+    "id": "6",
+    "storyId": "story1",
+    "contents": "Suddenly, a shadow moved across the room, too fast for John to catch a proper glimpse.",
+    "author": "Andrei",
+    "likesCount": 4,
+    "userLiked": false
+  },
+  {
+    "id": "7",
+    "storyId": "story1",
+    "contents": "He stumbled back, but the door slammed shut behind him, trapping him inside.",
+    "author": "Mislov",
+    "likesCount": 5,
+    "userLiked": false
+  },
+  {
+    "id": "8",
+    "storyId": "story1",
+    "contents": "His flashlight flickered out, leaving him in total darkness.",
+    "author": "Zhu",
+    "likesCount": 2,
+    "userLiked": true
+  },
+  {
+    "id": "9",
+    "storyId": "story1",
+    "contents": "For a moment, everything was silent, then a voice whispered his name from the shadows.",
+    "author": "",
+    "likesCount": 9,
+    "userLiked": true
+  },
+  {
+    "id": "10",
+    "storyId": "story1",
+    "contents": "John felt his heart stop as he turned toward the voice, barely breathing.",
+    "author": "Emily",
+    "likesCount": 6,
+    "userLiked": true
+  },
+  {
+    "id": "11",
+    "storyId": "story2",
+    "contents": "The spaceship lurched violently as it exited hyperspace, alarms blaring.",
+    "author": "John",
+    "likesCount": 6,
+    "userLiked": false
+  },
+  {
+    "id": "12",
+    "storyId": "story2",
+    "contents": "Captain Zhou gripped the controls tightly, trying to stabilize the ship.",
+    "author": "Zhu",
+    "likesCount": 8,
+    "userLiked": true
+  },
+  {
+    "id": "13",
+    "storyId": "story2",
+    "contents": "Sensors showed an unknown object drifting in space, right in their path.",
+    "author": "",
+    "likesCount": 3,
+    "userLiked": false
+  },
+  {
+    "id": "14",
+    "storyId": "story2",
+    "contents": "Andrei was the first to spot the strange ship—its design like nothing they'd ever seen before.",
+    "author": "Andrei",
+    "likesCount": 7,
+    "userLiked": true
+  },
+  {
+    "id": "15",
+    "storyId": "story2",
+    "contents": "Captain, it's hailing us! Should we respond?",
+    "author": "Emily",
+    "likesCount": 4,
+    "userLiked": false
+  },
+  {
+    "id": "16",
+    "storyId": "story2",
+    "contents": "The transmission was in a language no one could understand, but it didn't sound friendly.",
+    "author": "",
+    "likesCount": 9,
+    "userLiked": true
+  },
+  {
+    "id": "17",
+    "storyId": "story2",
+    "contents": "The captain gave the order—prepare to engage.",
+    "author": "Mislov",
+    "likesCount": 5,
+    "userLiked": false
+  }
+]
