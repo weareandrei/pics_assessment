@@ -31,5 +31,16 @@ jobs:
       - name: Run unit tests (Jest)
         run: npm run test:ci
 
+      # Start the React app in the background
+      - name: Start the React app
+        run: npm start &
+        env:
+          CI: true
+
+      # Wait a few seconds for the server to be up and running
+      - name: Wait for the server to start
+        run: sleep 10
+
+      # Run Cypress tests
       - name: Run Cypress tests
         run: npm run cypress:run
