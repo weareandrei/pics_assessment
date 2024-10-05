@@ -64,7 +64,7 @@ const Input = ({
   return (
     <div style={{ ...style.inputContainer, ...sx }}>
       <InputBase
-        inputProps={{ 'data-testid': 'comment-input' }} // Add this line
+        inputProps={{ 'data-testid': 'comment-input' }}
         style={{
           flex: 1,
           color: '#CFCED9',

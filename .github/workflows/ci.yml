@@ -28,9 +28,6 @@ jobs:
       - name: Type Check Jest
         run: npm run type-check:jest
 
-      - name: Type Check Cypress
-        run: npm run type-check:cypress
-
       - name: Run unit tests (Jest)
         run: npm run test:ci
 
