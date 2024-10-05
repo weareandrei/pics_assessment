@@ -16,11 +16,17 @@ describe('storiesSlice', () => {
         stories: storiesReducer,
       },
     })
+    const newStory = {
+      id: 'id_story5',
+      name: 'New Story',
+    }
+
+    store.dispatch(addStory(newStory))
   })
 
   it('should rename a story', () => {
     const updatedStory: Story = {
-      id: 'id_story1',
+      id: 'id_story5',
       name: 'Updated Story Name',
     }
 
@@ -28,7 +34,7 @@ describe('storiesSlice', () => {
 
     const state = store.getState().stories
     const renamedStory = state.stories.find(
-      (story: Story) => story.id === 'id_story1'
+      (story: Story) => story.id === 'id_story5'
     )
 
     expect(renamedStory).toBeDefined()
@@ -53,11 +59,11 @@ describe('storiesSlice', () => {
   })
 
   it('should remove a story', () => {
-    store.dispatch(deleteStory('id_story1'))
+    store.dispatch(deleteStory('id_story5'))
 
     const state = store.getState().stories
     const removedStory = state.stories.find(
-      (story: Story) => story.id === 'id_story1'
+      (story: Story) => story.id === 'id_story5'
     )
 
     expect(removedStory).toBeUndefined()
