@@ -37,6 +37,7 @@
     "type-check:jest": "tsc --project tsconfig.json --noEmit",
     "type-check:cypress": "tsc --project tsconfig.cypress.json --noEmit",
     "test": "react-scripts test",
+    "test:ci": "react-scripts test --watchAll=false --ci",
     "cypress:run": "cypress run --config-file tsconfig.cypress.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
