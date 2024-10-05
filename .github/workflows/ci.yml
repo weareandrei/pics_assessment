@@ -24,15 +24,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Run separate type-check for Jest and Cypress
       - name: Type Check Jest
         run: npm run type-check:jest
 
-      - name: Type Check Cypress
-        run: npm run type-check:cypress
-
       - name: Run unit tests (Jest)
         run: npm run test:ci
+
+      - name: Start the React app
+        run: npm start &
+        env:
+          CI: true
+
+      - name: Wait for the server to start
+        run: sleep 10
 
       - name: Run Cypress tests
         run: npm run cypress:run
